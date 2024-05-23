@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Quiz Application</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+<div class="quiz-container">
+  <div id="header">
+   
+  <h1 id="start-heading">Simple Quiz</h1>
+ 
+    
+</div>
+<div id="question-info" class="question-info">
+    
+  </div>
+ 
+<img id="quiz-image" src="start.jpg" alt="Quiz Image" class="quiz-image">
+  <button id="start-button" class="start-button">Start </button>
+  
+  <div id="question-container" class="question-container" style="display: none;">
+
+  <div id="question" class="question"></div>
+</div>
+  <div id="options" class="options" style="display: none;"></div>
+  <button id="next-button" class="next-button" style="display: none;">Next</button>
+  <button id="submit-button" class="submit-button" style="display: none;">Submit</button>
+</div>
+<div id="score-container" class="score-container" style="display: none;">
+
+  <h2>Congratulations!</h2>
+  <img id="score-image" src="cong.png" alt="score Image" class="score-image">
+  <p>Your score: <strong id="score"></strong></p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+

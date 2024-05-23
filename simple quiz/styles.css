@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #ffffff;
+  padding: 10px;
+}
+.quiz-title {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.question-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.quiz-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+  
+}
+
+.question-container {
+  margin-bottom: 30px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.option {
+  margin: 5px auto;
+  background-color: white; 
+  color: #000; 
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  text-align: center;
+  display: block;
+  width: calc(50% - 20px);
+  max-width: 300px;
+
+
+}
+
+.option:hover {
+  background-color: #006d5b; /* Hover background color */
+  color: white; /* Hover text color */
+}
+
+.option.selected {
+  background-color: #29AB87; 
+  color: white; 
+  border-color: #28a745; 
+}
+
+.next-button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 12px;
+  background-color: #29AB87;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.next-button:hover {
+  background-color: #006d5b;
+}
+
+.submit-button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 12px;
+  background-color: #29AB87;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #006d5b;
+}
+
+.score-container {
+  display: none;
+  text-align: center;
+}
+
+.start-button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 12px;
+  background-color: #29AB87;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #006d5b;
+}
+
+.quiz-image{
+  width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.score-image{
+  width: 50%;
+  height: auto;
+  margin-bottom: 20px;
+}
+#start-heading{
+  margin-bottom:20px;
+}
+
+.small-text {
+  font-size: 0.9em; 
+}
